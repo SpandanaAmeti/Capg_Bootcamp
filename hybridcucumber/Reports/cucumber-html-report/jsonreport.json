@@ -1,0 +1,365 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "To Test the Login Function of OrangeHrm",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 17070000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch the browser and Navigate to the Url",
+            "match": {
+              "location": "com.step_defination.OrangeHrmLoginSteps.to_launch_the_browser_and_Navigate_to_the_Url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 771000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To Enter Username and Password",
+            "match": {
+              "location": "com.step_defination.OrangeHrmLoginSteps.to_Enter_Username_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5384000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To Click the Submit button",
+            "match": {
+              "location": "com.step_defination.OrangeHrmLoginSteps.to_Click_the_Submit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 504000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To Take the Screenshot and the Title",
+            "match": {
+              "location": "com.step_defination.OrangeHrmLoginSteps.to_Take_the_Screenshot_and_the_Title()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-17T05:45:33.143Z",
+        "line": 21,
+        "name": "To Test the Admin Functionality of OrangeHrm",
+        "description": "",
+        "id": "to-test-the-orangehrm-application;to-test-the-admin-functionality-of-orangehrm;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1832000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To Open Admin functionlity of OrangeHrm",
+            "match": {
+              "location": "com.step_defination.OrangeHrmAdminPageSteps.to_Open_Admin_functionlity_of_OrangeHrm()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 132000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To Enter \"Manikanta\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Manikanta\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.step_defination.OrangeHrmAdminPageSteps.to_Enter(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 264000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Select \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 7
+                }
+              ],
+              "location": "com.step_defination.OrangeHrmAdminPageSteps.select(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 260000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "To Enter EmployeeName",
+            "match": {
+              "location": "com.step_defination.OrangeHrmAdminPageSteps.to_Enter_EmployeeName()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 403000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Select Status",
+            "match": {
+              "location": "com.step_defination.OrangeHrmAdminPageSteps.select_Status()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 993000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click Search Button",
+            "match": {
+              "location": "com.step_defination.OrangeHrmAdminPageSteps.click_Search_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 797000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Take the Screenshot and the Title",
+            "match": {
+              "location": "com.step_defination.OrangeHrmAdminPageSteps.take_the_Screenshot_and_the_Title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 870000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Close the browser",
+            "match": {
+              "location": "com.step_defination.OrangeHrmAdminPageSteps.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "To Test the Login Function of OrangeHrm",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11601000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch the browser and Navigate to the Url",
+            "match": {
+              "location": "com.step_defination.OrangeHrmLoginSteps.to_launch_the_browser_and_Navigate_to_the_Url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 401000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To Enter Username and Password",
+            "match": {
+              "location": "com.step_defination.OrangeHrmLoginSteps.to_Enter_Username_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8586000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To Click the Submit button",
+            "match": {
+              "location": "com.step_defination.OrangeHrmLoginSteps.to_Click_the_Submit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 428000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To Take the Screenshot and the Title",
+            "match": {
+              "location": "com.step_defination.OrangeHrmLoginSteps.to_Take_the_Screenshot_and_the_Title()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-17T05:46:03.136Z",
+        "line": 22,
+        "name": "To Test the Admin Functionality of OrangeHrm",
+        "description": "",
+        "id": "to-test-the-orangehrm-application;to-test-the-admin-functionality-of-orangehrm;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1783000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To Open Admin functionlity of OrangeHrm",
+            "match": {
+              "location": "com.step_defination.OrangeHrmAdminPageSteps.to_Open_Admin_functionlity_of_OrangeHrm()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 141000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To Enter \"Nagireddy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nagireddy\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.step_defination.OrangeHrmAdminPageSteps.to_Enter(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 139000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Select \"All\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All\"",
+                  "offset": 7
+                }
+              ],
+              "location": "com.step_defination.OrangeHrmAdminPageSteps.select(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 164000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "To Enter EmployeeName",
+            "match": {
+              "location": "com.step_defination.OrangeHrmAdminPageSteps.to_Enter_EmployeeName()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 221000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Select Status",
+            "match": {
+              "location": "com.step_defination.OrangeHrmAdminPageSteps.select_Status()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 684000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click Search Button",
+            "match": {
+              "location": "com.step_defination.OrangeHrmAdminPageSteps.click_Search_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 421000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Take the Screenshot and the Title",
+            "match": {
+              "location": "com.step_defination.OrangeHrmAdminPageSteps.take_the_Screenshot_and_the_Title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 764000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Close the browser",
+            "match": {
+              "location": "com.step_defination.OrangeHrmAdminPageSteps.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To Test the OrangeHrm Application",
+    "description": "",
+    "id": "to-test-the-orangehrm-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/TestCase.feature",
+    "tags": []
+  }
+]

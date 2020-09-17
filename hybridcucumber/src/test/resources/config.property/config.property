@@ -1,0 +1,15 @@
+browser = chrome
+url = https://opensource-demo.orangehrmlive.com/
+
+
+
+#login cridentials 
+username = Admin
+password = admin123
+
+
+#OrangeHrm Admin details
+adminUserName = Admin
+adminUserType = Admin
+adminEmployeeName = Linda Anderson
+adminStatus = Enabled
